@@ -1,0 +1,16 @@
+nav{
+    border: solid 5px black;
+    display: flex;
+    background-color: royalblue;
+    width: 400px;
+
+}
+div{
+    border: solid 5px black;
+    background-color: rosybrown;
+   margin: 5px; 
+}
+a{
+    color: black;
+    
+}
