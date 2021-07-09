@@ -1,6 +1,30 @@
 h1{
+    font-weight: lighter;
     width: 90px;
     padding: 20px;
     border: solid 20px blue;
     margin: 15px;
+}
+/*
+para hacer un comentario en CSS es igual que en C
+*/
+/* Se puede hacer esto */
+p,section{
+    display: inline;
+}
+
+div{
+    width: 10mm;
+    display: flex;
+    margin: 1cm;
+    background-color: red;
+}
+/* # el gato es para hacer referencia a cuando le pones un id a una etiqueta */
+
+/* Selector de clase: es lo mismo que un id pero para varios elementos del HTML*/
+
+/* Se puede hacer hacer una regla para que aplique a todos los elementos del HTML se ocupa el * */
+
+*{
+    font-size: 30px;
 }
