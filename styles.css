@@ -1,16 +1,28 @@
 nav{
-    border: solid 5px black;
-    display: flex;
-    background-color: royalblue;
-    width: 400px;
+    padding: 3px;
+    display: inline-block;
+    width: 800px;
+    background-color: rosybrown;
 
 }
-div{
-    border: solid 5px black;
-    background-color: rosybrown;
-   margin: 5px; 
+.nativo{
+    display: inline-block;
+    background-color: rosybrown; 
+    margin: 10px;
+    margin-right: 110px;
+    border: solid rosybrown;
 }
 a{
     color: black;
-    
+    text-decoration: none;
+}
+p{
+    display:inline-block;
+    width: 400px;
+}
+section{
+    display: block;
+}
+div{
+    display:inline-block;
 }
