@@ -1,74 +1,17 @@
 /* Con el important se puede hacer una prioridad de aplicar una propiedad */
-html,body { 
-    height: 100%; 
-    margin: 0px; 
-    padding: 0px; 
-}
-*{
-    border: 1px solid black;
-}
-main{
-    display: grid;
-    grid-template-columns:10% 30% 60%;
-    grid-template-rows:10% 60% 30% ;
-    grid-template-areas: "nav barra minu" "nav barra minu" "nav barra minu";
-    height: 100%; 
-    margin: 0px; 
-    padding: 0px; 
-}
-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px; 
-    padding: 0px;
-    grid-area: nav;
-}
-#barra{
-    height: 100%; 
-    margin: 0px; 
-    padding: 0px;
-    grid-area: barra;
-}
-#menu{
-    height: 100%; 
-    margin: 0px; 
-    padding: 0px;
-    grid-area: minu;
-}
-#top{
-    height: 5.5%;
-}
-#topb{
-    height: 6.25%;
-}
-.iconB{
-    border: none;
-    display: block;
-    width: 45px;
-}
-#Csalas{
-    height: 93%; 
-    margin: 0px; 
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#salas{
-    height: 50%; 
-    margin: 0px; 
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+#conteiner{
+    width: 400px;
+    height: 400px;
+    background-color: coral;
 }
 
-#Nocabe{
-    width: auto;
-    height: 675px;
-}
-p{
-    max-width: 100%;
-    height: 50%;
+@media screen and (min-width: 375px) and (max-width: 768px){
+    #conteiner{
+        width: 200px;
+        height: 200px;
+        background-color: deeppink;
+    }
+    input{
+        width: 100%;
+    }
 }
