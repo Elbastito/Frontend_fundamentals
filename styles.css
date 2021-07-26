@@ -1,13 +1,23 @@
 /* Con el important se puede hacer una prioridad de aplicar una propiedad */
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
 main{
+    width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 360px);
-    grid-template-rows: repeat(3, 220px);
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33%);
     grid-template-areas: "H . . ." ". G . M" ". . I .";
 }
  .imajen{
-    max-width: 300px;
-    max-height: 400px;
+    max-width: 100%;
+    max-height: 100%;
  }
  #mozila{
      grid-area: M;
