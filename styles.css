@@ -1,9 +1,23 @@
 /* Con el important se puede hacer una prioridad de aplicar una propiedad */
-#conteiner{
-    width: 400px;
-    height: 400px;
-    background-color: coral;
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 360px);
+    grid-template-rows: repeat(3, 220px);
+    grid-template-areas: "H . . ." ". G . M" ". . I .";
 }
-input{
-    width: 50%;
-}
+ .imajen{
+    max-width: 300px;
+    max-height: 400px;
+ }
+ #mozila{
+     grid-area: M;
+ }
+ #homero{
+    grid-area: H;
+ }
+ #instagram{
+     grid-area: I;
+ }
+ #github{
+    grid-area: G;
+ }

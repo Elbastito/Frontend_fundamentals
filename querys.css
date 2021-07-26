@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 220px);
+        grid-template-rows: repeat(3, 220px);
+        grid-template-areas: "H . . " ". G M" ". . I";
+    }
+    .imajen{
+        max-width: 230px;
+        max-height: 230px;
+     }
+}
+
+@media screen and (max-width: 375px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 187px);
+        grid-template-rows: repeat(3, 270px);
+        grid-template-areas: "H . " ". M" "G I";
+    }
+    .imajen{
+        max-width: 187px;
+        max-height: 270px;
+     }
+}
