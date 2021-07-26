@@ -1,0 +1,10 @@
+@media screen and (min-width: 375px) and (max-width: 768px){
+    #conteiner{
+        width: 200px;
+        height: 200px;
+        background-color: deeppink;
+    }
+    input{
+        width: 50%;
+    }
+}

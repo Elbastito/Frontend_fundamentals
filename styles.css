@@ -4,14 +4,6 @@
     height: 400px;
     background-color: coral;
 }
-
-@media screen and (min-width: 375px) and (max-width: 768px){
-    #conteiner{
-        width: 200px;
-        height: 200px;
-        background-color: deeppink;
-    }
-    input{
-        width: 100%;
-    }
+input{
+    width: 50%;
 }
