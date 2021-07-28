@@ -1,1 +1,54 @@
 /* Con el important se puede hacer una prioridad de aplicar una propiedad */
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.cabezera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#demasespacio{
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+}
+#nombre{
+    font-size: 50pt;
+}
+p{
+    font-size: 20pt;
+}
+#phone{
+    color: white;
+}
+#emilio{
+    color: white;
+}
+.d-flex.cuerpo1{
+    flex-direction: column;
+}
+.d-flex.contacto{
+    align-items: center;
+    justify-content: space-around;
+    min-height: 120px;
+    background-color: black;
+    font-size: 23pt;
+}
+.d-flex.persona{
+    flex-direction: column;
+    max-width: 80%;
+}
+#espacionegro{
+    min-height: 120px;
+    max-width: 70%;
+    background-color: black;
+}
+.experiencia.cuerpo2{
+    font-size: 13pt;
+    background-color: gainsboro;
+}
