@@ -1,4 +1,5 @@
 @import "medidas";
+@import "resque";
 
 html{
     width: $pan;
@@ -6,26 +7,26 @@ html{
 body{
         width: $pan;
         height: $pan;
-    }
-}
-main{
-    width: $pan;
-    height: $pan;
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(3, 33%);
-    grid-template-areas: "H . . ." ". G . M" ". . I .";
-    #mozila{
-        grid-area: M;
-    }
-    #homero{
-       grid-area: H;
-    }
-    #instagram{
-        grid-area: I;
-    }
-    #github{
-       grid-area: G;
+        main{
+            width: $pan;
+            height: $pan;
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-rows: repeat(3, 33%);
+            grid-template-areas: "H . . ." ". G . M" ". . I .";
+            #mozila{
+                grid-area: M;
+            }
+            #homero{
+                grid-area: H;
+            }
+            #instagram{
+                grid-area: I;
+            }
+            #github{
+               grid-area: G;
+            }
+        }
     }
 }
  .imajen{

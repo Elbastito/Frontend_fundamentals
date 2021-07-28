@@ -1,3 +1,19 @@
+@media screen and (max-width: 768px) {
+  html body main {
+    display: grid !important;
+    grid-template-columns: repeat(3, 33%) !important;
+    grid-template-rows: repeat(3, 33%) !important;
+    grid-template-areas: "H . . " ". G M" ". . I" !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  html body main {
+    display: grid !important;
+    grid-template-columns: repeat(2, 50%) !important;
+    grid-template-rows: repeat(3, 33%) !important;
+    grid-template-areas: "H . " ". M" "G I" !important;
+  }
+}
 html {
   width: 100%;
   height: 100%;
@@ -6,8 +22,7 @@ html body {
   width: 100%;
   height: 100%;
 }
-
-main {
+html body main {
   width: 100%;
   height: 100%;
   display: grid;
@@ -15,16 +30,16 @@ main {
   grid-template-rows: repeat(3, 33%);
   grid-template-areas: "H . . ." ". G . M" ". . I .";
 }
-main #mozila {
+html body main #mozila {
   grid-area: M;
 }
-main #homero {
+html body main #homero {
   grid-area: H;
 }
-main #instagram {
+html body main #instagram {
   grid-area: I;
 }
-main #github {
+html body main #github {
   grid-area: G;
 }
 

@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+    html{
+        
+        body{
+            main{
+                display: grid!important;
+                grid-template-columns: repeat(3, 33%)!important;
+                grid-template-rows: repeat(3, 33%)!important;
+                grid-template-areas: "H . . " ". G M" ". . I"!important;
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html{
+        body{
+            main{
+                display: grid!important;
+                grid-template-columns: repeat(2, 50%)!important;
+                grid-template-rows: repeat(3, 33%)!important;
+                grid-template-areas: "H . " ". M" "G I"!important;
+            }
+        }
+    }
+}
